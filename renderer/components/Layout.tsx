@@ -26,6 +26,14 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
         |{' '}
         <Link href="/initial-props">
           <a>With Initial Props</a>
+        </Link>{' '}
+        |{' '}
+        <Link href="/db-view">
+          <a>Database test</a>
+        </Link>{' '}
+        |{' '}
+        <Link href="/editor-view">
+          <a>Editor test</a>
         </Link>
       </nav>
     </header>
